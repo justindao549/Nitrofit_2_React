@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <version>190219</version>
+    <url>/Users/justindao/Desktop/Portfolio Projects/nitrofit-react/src/app/assets/ShortWorkout Video.ove</url>
+    <folders/>
+    <media>
+        <footage id="1" folder="0" name="FemaleJumpRope.mp4" url="../../../../NitroFit/Mp4/FemaleJumpRope.mp4" duration="10240000" using_inout="0" in="0" out="0" speed="1" alphapremul="0" startnumber="0" proxy="0" proxypath="">
+            <video id="0" width="3840" height="2160" framerate="25.0000000000" infinite="0"/>
+        </footage>
+        <footage id="2" folder="0" name="Deadligt.mp4" url="../../../../NitroFit/Mp4/Deadligt.mp4" duration="20800000" using_inout="0" in="0" out="0" speed="1" alphapremul="0" startnumber="0" proxy="0" proxypath="">
+            <video id="0" width="4096" height="2160" framerate="25.0000000000" infinite="0"/>
+        </footage>
+        <footage id="3" folder="0" name="Pushup.mp4" url="../../../../NitroFit/Mp4/Pushup.mp4" duration="7880000" using_inout="0" in="0" out="0" speed="1" alphapremul="0" startnumber="0" proxy="0" proxypath="">
+            <video id="0" width="3840" height="2160" framerate="25.0000000000" infinite="0"/>
+        </footage>
+        <footage id="4" folder="0" name="Squat.mp4" url="../../../../NitroFit/Mp4/Squat.mp4" duration="20520000" using_inout="0" in="0" out="0" speed="1" alphapremul="0" startnumber="0" proxy="0" proxypath="">
+            <video id="0" width="3840" height="2160" framerate="25.0000000000" infinite="0"/>
+        </footage>
+    </media>
+    <sequences>
+        <sequence id="1" folder="0" name="Sequence 01" width="1920" height="1080" framerate="29.9700000000" afreq="48000" alayout="3" open="1" workarea="1" workareaIn="0" workareaOut="480">
+            <clip id="0" enabled="1" name="FemaleJumpRope.mp4" clipin="0" in="0" out="121" track="-5" r="192" g="160" b="128" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="1" stream="0">
+                <linked/>
+                <closing length="39" name="/Cross Dissolve" enabled="1"/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="908"/>
+                        <field id="posy" value="271"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="53"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="-148"/>
+                        <field id="anchory" value="-448"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="1" enabled="1" name="Squat.mp4" clipin="0" in="121" out="270" track="-4" r="192" g="160" b="128" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="4" stream="0">
+                <linked/>
+                <opening length="37" name="/Cross Dissolve" enabled="1"/>
+                <closing length="24" name="/Cross Dissolve" enabled="1"/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="960"/>
+                        <field id="posy" value="537"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="50.5556"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="2" enabled="1" name="Deadligt.mp4" clipin="0" in="270" out="391" track="-3" r="192" g="160" b="128" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="2" stream="0">
+                <linked/>
+                <opening length="27" name="/Cross Dissolve" enabled="1"/>
+                <closing length="27" name="/Cross Dissolve" enabled="1"/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="952"/>
+                        <field id="posy" value="525"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="52.9375"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+            </clip>
+            <clip id="3" enabled="1" name="Pushup.mp4" clipin="0" in="391" out="507" track="-2" r="192" g="160" b="128" autoscale="0" speed="1.0000000000" maintainpitch="0" reverse="0" type="0" media="3" stream="0">
+                <linked/>
+                <opening length="30" name="/Cross Dissolve" enabled="1"/>
+                <effect name="Distort/Transform" enabled="1">
+                    <row>
+                        <field id="posx" value="960"/>
+                        <field id="posy" value="537"/>
+                    </row>
+                    <row>
+                        <field id="scalex" value="51"/>
+                        <field id="scaley" value="100"/>
+                    </row>
+                    <row>
+                        <field id="uniformscale" value="1"/>
+                    </row>
+                    <row>
+                        <field id="rotation" value="0"/>
+                    </row>
+                    <row>
+                        <field id="anchorx" value="0"/>
+                        <field id="anchory" value="0"/>
+                    </row>
+                    <row>
+                        <field id="opacity" value="100"/>
+                    </row>
+                    <row>
+                        <field id="blendmode" value=""/>
+                    </row>
+                </effect>
+            </clip>
+        </sequence>
+    </sequences>
+</project>

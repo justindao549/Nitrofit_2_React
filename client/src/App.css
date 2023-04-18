@@ -1,0 +1,150 @@
+.RedAcc {
+	color: #f25022;
+}
+.GreyAcc {
+	color: #737373;
+}
+
+p {
+	color: #768079;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.footer {
+	margin-top: 2rem;
+	height: 70px;
+	background-color: rgb(67, 66, 64);
+	color: white;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+
+.Left-Red-Border {
+	border-top: 4px solid #f25022;
+	border-left: 1px solid #f25022;
+}
+
+.Left-Grey-Border {
+	border-top: 4px solid #c6c6c6;
+	border-left: 1px solid #c6c6c6;
+}
+
+.Right-Red-Border {
+	border-top: 4px solid #e5c3ba;
+	border-right: 1px solid #e5c3ba;
+}
+
+.Icon-Col {
+	border-bottom: 4px solid #c6c6c6;
+	border-left: 1px solid #c6c6c6;
+}
+.Icon:hover {
+	transform: scale(1.15);
+	color: #768079;
+	transition: all ease 300ms;
+}
+
+.card-title,
+.card-number {
+	color: #f25022;
+}
+.card-text {
+	color: white;
+}
+.card {
+	width: 100%;
+	max-width: 500px;
+	margin-bottom: 20px;
+	transition: all ease 300ms;
+}
+
+.card:hover {
+	transform: scale(1.03);
+	box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+		0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+		0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.Icon {
+	color: #f25022;
+}
+
+@font-face {
+	font-family: 'future_z';
+	src: url('app/assets/fonts/future_z/Future Z.ttf') format('truetype');
+}
+
+Row {
+	margin: 0;
+	padding: 0;
+}
+
+FontAwesomeIcon {
+	color: red;
+}
+
+h1,
+h3,
+h5,
+Nav,
+.video-text,
+.card-title,
+.card-text {
+	font-family: 'future_z';
+}
+
+.CardText .CardTextSmall {
+	color: black;
+}
+
+.navbar .nav-link {
+	color: #737373;
+	position: relative;
+	border-bottom: 1px solid #c6c6c6;
+}
+
+.navbar .nav-link::after {
+	/* background: none repeat scroll 0 0 transparent; */
+	bottom: 0;
+	content: '';
+	height: 4px;
+	left: 50%;
+	position: absolute;
+	background: #f25022;
+	transition: width 1s ease 0s, left 1s ease 0s;
+	width: 0;
+}
+.navbar .nav-link:hover::after {
+	width: 100%;
+	left: 0;
+	transition: width 1s ease 0s, left 1s ease 0s;
+}
+
+.navbar .nav-link:hover {
+	color: white;
+	background-color: #bababa;
+	cursor: pointer;
+}
+
+.navbar .nav-link.active {
+	color: #f25022;
+	border-top: 1px solid #c6c6c6;
+	border-left: 1px solid #c6c6c6;
+	border-right: 1px solid #c6c6c6;
+	border-bottom: 0px;
+}
+
+@media only screen and (max-width: 1029px) {
+	.navbar .nav-link,
+	.navbar .nav-link.active {
+		border: none;
+	}
+}
+button.custom-toggler.navbar-toggler {
+	background-color: #ee5d35;
+	border: none;
+}
