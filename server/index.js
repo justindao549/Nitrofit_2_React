@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const User = require('./models/user.model');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
+require('dotenv').config();
 
 app.use(cors());
 app.use(express.json());
@@ -74,6 +75,6 @@ app.get('/api/fetchall', async (req, res) => {
 	}
 });
 
-app.listen(1337, () => {
-	console.log('Server started on port 1337');
+app.listen(process.env.PORT || 1337, () => {
+	console.log('Server Is Connected!');
 });
