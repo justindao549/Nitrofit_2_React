@@ -10,15 +10,15 @@ import {
 	Label,
 } from 'reactstrap';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 function SignUpModal() {
 	const [modal, setModal] = useState(false);
 	const toggle = () => setModal(!modal);
 	const history = useNavigate();
+	const ServerLink = 'https://nitrofit-2-react.herokuapp.com/';
 
 	async function registerUser(values) {
-		const response = await fetch('http://localhost:1337/api/register', {
+		const response = await fetch(`${ServerLink}/api/register`, {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
@@ -30,7 +30,6 @@ function SignUpModal() {
 
 		if (data.status === 'ok') {
 			// save JWT token to local storage
-			
 
 			alert("You've been successfully registered!");
 			window.location.href = '/';
@@ -42,7 +41,10 @@ function SignUpModal() {
 
 	return (
 		<div>
-			<Button color="danger" onClick={toggle} style={{ marginLeft: '10px', marginRight: '10px', marginTop: '10Px' }}>
+			<Button
+				color="danger"
+				onClick={toggle}
+				style={{ marginLeft: '10px', marginRight: '10px', marginTop: '10Px' }}>
 				Join
 			</Button>
 			<Modal isOpen={modal} toggle={toggle}>
