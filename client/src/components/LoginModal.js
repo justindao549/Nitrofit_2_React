@@ -17,7 +17,7 @@ function Login() {
 	const navigate = useNavigate();
 	const [modal, setModal] = useState(false);
 	const toggle = () => setModal(!modal);
-	const ServerLink = 'https://nitrofit-2-react.herokuapp.com/';
+	const ServerLink = 'https://nitrofit-2-react.herokuapp.com';
 
 	async function loginUser(values) {
 		const response = await fetch(`${ServerLink}/api/login`, {

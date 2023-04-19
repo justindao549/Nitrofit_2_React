@@ -15,7 +15,7 @@ function SignUpModal() {
 	const [modal, setModal] = useState(false);
 	const toggle = () => setModal(!modal);
 	const history = useNavigate();
-	const ServerLink = 'https://nitrofit-2-react.herokuapp.com/';
+	const ServerLink = 'https://nitrofit-2-react.herokuapp.com';
 
 	async function registerUser(values) {
 		const response = await fetch(`${ServerLink}/api/register`, {
