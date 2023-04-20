@@ -7,7 +7,6 @@ import {
 	CardBody,
 	CardTitle,
 	CardText,
-	Button,
 } from 'reactstrap';
 import React from 'react';
 import SignUpModal from '../components/SignUpModal';

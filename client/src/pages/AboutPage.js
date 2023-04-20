@@ -73,6 +73,7 @@ const AboutPage = () => {
 						img-fluid
 						src={Pic_Pump}
 						width="100%"
+						alt="Working Out"
 						style={{
 							flexDirection: 'row',
 							justifyContent: 'flex-end',

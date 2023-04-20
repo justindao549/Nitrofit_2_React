@@ -1,5 +1,4 @@
 import { Container, Row, Col } from 'reactstrap';
-import { Link } from 'react-router-dom';
 import React from 'react';
 import video from '../app/assets/ShortWorkoutVideo.mov';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +9,6 @@ import {
 	faInstagram,
 	faFacebook,
 } from '@fortawesome/free-brands-svg-icons';
-import AboutPage from './AboutPage';
 
 const HomePage = () => {
 	return (
